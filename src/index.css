@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+  }
+  body {
+    @apply font-poppins;
+  }
+
+  /* Tipografia Responsiva do Hero */
+  .hero-title-main {
+    /* Ajustado para não quebrar muito no mobile */
+    font-size: clamp(2.25rem, 6vw, 4.75rem);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+
+  .hero-description {
+    font-size: clamp(0.95rem, 2vw, 1.125rem);
+    line-height: 1.6;
+  }
+
+  /* Estatísticas */
+  .hero-stat-number {
+    font-size: clamp(1.75rem, 5vw, 2.5rem);
+    line-height: 1;
+  }
+
+  .hero-stat-label {
+    font-size: clamp(0.75rem, 1.5vw, 0.875rem);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  /* Container de botões responsivo */
+  .hero-buttons-container {
+    width: 100%;
+  }
+
+  @media (max-width: 640px) {
+    .hero-buttons-container a {
+      min-height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  @media (min-width: 640px) {
+    .hero-buttons-container {
+      gap: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .contactbar-button-fixed {
+      width: 220px;
+    }
+    .authority-copy {
+      max-width: 44rem;
+    }
+  }
+}
+
