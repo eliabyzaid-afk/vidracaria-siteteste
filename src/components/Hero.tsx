@@ -27,7 +27,7 @@ export default function Hero() {
 
         {/* Título Principal */}
         <h1 className="hero-title-main font-bold text-white leading-tight max-w-4xl">
-          Vidraçaria Elizabeth
+          Vidraçaria Elisabeth
           <span className="text-teal-400 block mt-2">Soluções do Médio ao Alto Padrão</span>
         </h1>
 

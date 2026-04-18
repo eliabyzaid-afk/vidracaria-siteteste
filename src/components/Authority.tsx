@@ -22,9 +22,9 @@ export default function Authority() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="authority-copy">
-            <span className="text-teal-400 text-sm font-semibold tracking-[0.15em] uppercase">Por que a Elisabeth?</span>
+            <span className="text-teal-400 text-sm font-semibold tracking-[0.15em] uppercase">Por que a</span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-white leading-tight">
-              Por que a Vidraçaria Elisabeth é a escolha certa?
+              Vidraçaria <span className="text-teal-400">Elisabeth</span> é a <span className="text-teal-400">escolha certa?</span>
             </h2>
             <p className="mt-5 text-white/60 text-base leading-relaxed">
               Aqui você não contrata apenas um serviço — você garante um resultado bem feito, do início ao fim. Trabalhamos com atenção em cada detalhe para entregar um acabamento de qualidade, com compromisso, organização e respeito ao seu espaço.
@@ -39,10 +39,7 @@ export default function Authority() {
               ))}
             </ul>
 
-            <p className="mt-8 text-teal-300 text-base leading-relaxed">
-              💬 Fale com um especialista agora e faça seu orçamento sem compromisso.
-            </p>
-
+            
             <div className="mt-6">
               <a
                 href="https://wa.me/5511000000000"

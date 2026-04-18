@@ -3,8 +3,7 @@ import { Menu, X, Diamond } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const navLinks = [
-  { label: 'Produtos', href: '#produtos' },
-  { label: 'Diferenciais', href: '#diferenciais' },
+  { label: 'Produtos', href: '/#produtos' },
   { label: 'Depoimentos', href: '#depoimentos' },
   { label: 'Contato', href: '#contato' },
 ];
