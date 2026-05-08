@@ -24,7 +24,7 @@ export default function Footer() {
               </p>
             </div>
             <a
-              href="https://wa.me/5511000000000"
+              href="https://api.whatsapp.com/send/?phone=5511983093577&text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+o+servi%C3%A7o+de+vidra%C3%A7aria+e+or%C3%A7amentos.&type=phone_number&app_absent=0"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-shrink-0 bg-white hover:bg-gray-50 text-teal-600 font-bold px-10 py-4 rounded-full text-sm tracking-wide transition-all duration-200 hover:shadow-xl hover:shadow-black/20 flex items-center gap-3"
@@ -122,46 +122,36 @@ export default function Footer() {
             <h3 className="text-white font-semibold text-sm uppercase tracking-wider mb-5">Contato</h3>
             <ul className="space-y-4">
               <li>
-                <a
-                  href="https://wa.me/5511000000000"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-start gap-3 text-white/50 hover:text-white transition-colors"
-                >
+                <div className="flex items-start gap-3 text-white/50 hover:text-white transition-colors">
                   <MessageCircle className="w-4 h-4 text-[#25D366] mt-0.5 flex-shrink-0" />
                   <div>
                     <div className="text-xs text-white/30 mb-0.5">WhatsApp Comercial</div>
                     <a
-                  href="https://api.whatsapp.com/send/?phone=5511983093577&text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+o+servi%C3%A7o+de+vidra%C3%A7aria+e+or%C3%A7amentos.&type=phone_number&app_absent=0"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm hover:text-teal-400 transition-colors"
-                >
-                  (11) 98309-3577
-                </a>
+                      href="https://api.whatsapp.com/send/?phone=5511983093577&text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+o+servi%C3%A7o+de+vidra%C3%A7aria+e+or%C3%A7amentos.&type=phone_number&app_absent=0"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm hover:text-teal-400 transition-colors"
+                    >
+                      (11) 98309-3577
+                    </a>
                   </div>
-                </a>
+                </div>
               </li>
               <li>
-                <a
-                  href="https://wa.me/5511000000000"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-start gap-3 text-white/50 hover:text-white transition-colors"
-                >
+                <div className="flex items-start gap-3 text-white/50 hover:text-white transition-colors">
                   <MessageCircle className="w-4 h-4 text-[#25D366] mt-0.5 flex-shrink-0" />
                   <div>
                     <div className="text-xs text-white/30 mb-0.5">WhatsApp</div>
                     <a
-                  href="https://api.whatsapp.com/send/?phone=5511980347789&text=Ol%C3%A1%21+Gostaria+de+tirar+uma+d%C3%BAvida+sobre+um+projeto.&type=phone_number&app_absent=0"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm hover:text-teal-400 transition-colors"
-                >
-                  (11) 98034-7789
-                </a>
+                      href="https://api.whatsapp.com/send/?phone=5511980347789&text=Ol%C3%A1%21+Gostaria+de+tirar+uma+d%C3%BAvida+sobre+um+projeto.&type=phone_number&app_absent=0"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm hover:text-teal-400 transition-colors"
+                    >
+                      (11) 98034-7789
+                    </a>
                   </div>
-                </a>
+                </div>
               </li>
               <li>
                 <div className="flex items-start gap-3 text-white/50">

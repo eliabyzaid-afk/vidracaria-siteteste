@@ -23,7 +23,7 @@ export default function ContactBar() {
             </a>
 
             <a
-              href="https://wa.me/5511983093577?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20o%20serviço%20de%20vidraçaria%20e%20orçamentos."
+              href="https://api.whatsapp.com/send/?phone=5511983093577&text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+o+servi%C3%A7o+de+vidra%C3%A7aria+e+or%C3%A7amentos.&type=phone_number&app_absent=0"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto lg:w-[220px] contactbar-button-fixed flex items-center justify-center gap-3 bg-[#13382c] hover:bg-[#0f2f24] border border-black/10 hover:border-black/20 text-white rounded-full px-8 sm:px-6 py-3 sm:py-2.5 transition-all duration-200 group text-sm sm:text-sm font-bold"

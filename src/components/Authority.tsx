@@ -42,7 +42,7 @@ export default function Authority() {
             
             <div className="mt-6">
               <a
-                href="https://wa.me/5511000000000"
+                href="https://api.whatsapp.com/send/?phone=5511983093577&text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+o+servi%C3%A7o+de+vidra%C3%A7aria+e+or%C3%A7amentos.&type=phone_number&app_absent=0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white font-semibold px-8 py-4 rounded-full text-sm tracking-wide transition-all duration-200 hover:shadow-xl hover:shadow-teal-500/30"

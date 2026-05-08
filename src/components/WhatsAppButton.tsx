@@ -1,7 +1,7 @@
 import { MessageCircle } from 'lucide-react';
 
 const ORCAMENTOS_LINK =
-  'https://wa.me/5511980347789?text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20de%20vidra%C3%A7aria%20e%20or%C3%A7amentos.';
+  'https://api.whatsapp.com/send/?phone=5511983093577&text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+o+servi%C3%A7o+de+vidra%C3%A7aria+e+or%C3%A7amentos.&type=phone_number&app_absent=0';
 
 export default function WhatsAppButton() {
   return (
