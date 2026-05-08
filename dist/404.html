@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vidraçaria Elisabeth</title>
+    <script>
+      // GitHub Pages doesn't support SPA rewrites.
+      // Redirect any unknown route back to the app entry,
+      // preserving the path/query/hash so React Router can render it.
+      (function () {
+        var repoBase = '/vidracaria-site/';
+        var path = window.location.pathname;
+        if (path.indexOf(repoBase) !== 0) {
+          window.location.replace(repoBase);
+          return;
+        }
+        var rest = path.slice(repoBase.length);
+        var target =
+          repoBase +
+          '?p=' +
+          encodeURIComponent(rest) +
+          '&q=' +
+          encodeURIComponent(window.location.search.slice(1)) +
+          '&h=' +
+          encodeURIComponent(window.location.hash.slice(1));
+        window.location.replace(target);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
+
